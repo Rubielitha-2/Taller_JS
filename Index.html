@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Taller JavaScript</h1>
+        <div class="form">
+            <h2><span>Eje.1 Año Bisiesto></span></h2>
+            <label for="">Escribe el año</label>
+            <input type="text" id="año">
+            <button onclick="esBisiesto()">Calcular</button>
+            <input type="text" id="resultado1" class="resultados" disabled>
+        </div>
+
+        <div class="form">
+            <h2>Eje.2 Celsius a Fahrenheit</h2>
+            <label for="">escribe el grado en Celsious</label>
+            <input type="text" id="celsius">
+            <button onclick="Celsiusafahrenheit()">Calcular</button>
+            <input type="text" id="resultado2" class="resultados" disabled>
+        </div>
+
+        <div class="form">
+            <h2>Eje.3 Mayor de dos Números</h2>
+            <label for="">Escribe dos numeros</label>
+            <input type="text" id="num1" placeholder="escribe el primer numero">
+            <input type="text" id="num2" placeholder="escribe el segundo numero">
+            <button onclick="mayordedosnumeros()">Calcular</button>
+            <input type="text" id="resultado3" class="resultados" disabled>
+        </div>
+
+        <div class="form">
+            <h2>Eje.4 Horas y Minutos</h2>
+            <label for="">escribe los minutos</label>
+            <input type="text" id="minutos">
+            <button onclick="minutosencadenadehoras()">Calcular</button>
+            <input type="text" id="resultado4" class="resultados" disabled>
+        </div>
+
+        <div class="form">
+            <h2>Eje.5 numero dentro de rango</h2>
+            <label for="">escribe el numero</label>
+            <input type="text" id="numero">
+            <label for="">rango de inicio</label>
+            <input type="text" id="inicio">
+            <label for="">rango de fin</label>
+            <input type="text" id="fin">
+            <button onclick="estaEnRango()">Calcular</button>
+            <input type="text" id="resultado5" class="resultados" disabled>
+        </div>
+        <div class="form">
+            <h2>Eje.6 porcentaje de descuento</h2>
+            <label for="">escribe el precio para aplicar tu descuento</label>
+            <input type="text" id="precio">
+            <button onclick="calcularpreciofinal()">Calcular</button>
+            <input type="text" id="resultado6" class="resultados" disabled>
+        </div>
+        <div class="form">
+            <h2>Eje.7 edad para votar</h2>
+            <label for="">escribe la edad</label>
+            <input type="text" id="edad">
+            <button onclick="puedevotar()">Calcular</button>
+            <input type="text" id="resultado7" class="resultados" disabled>
+        </div>
+
+        <div class="form">
+            <h2>Eje.8 calcular area triangulo</h2>
+            <label for="">escribe la base</label>
+            <input type="text" id="base">
+            <label for="">escribe la altura</label>
+            <input type="text" id="altura">
+            <button onclick="areatriangulo()">Calcular</button>
+            <input type="text" id="resultado8" class="resultados" disabled>
+        </div>
+        <p>&copy; Rubiela Ardila Ardila - Alexis Carrillo Cruz</p>         
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
